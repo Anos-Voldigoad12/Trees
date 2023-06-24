@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>General Binary Tree</title>
+		<link rel="stylesheet" href="./style.css">
+		<script type="text/javascript" src="./script.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+		<center><font color="yellow"><h2><u>General Binary Tree</u></h2></font></center>
+		<div id="inputs">
+			<form>
+				<input type="text" id="rootData">
+				<button type="button" id="addRoot" onclick="addRootNode()">Add Root</button>
+				<input type="text" id="leftData">
+				<button type="button" id="leftNode" onclick="addLeftNode()">Left</button>
+				<input type="text" id="rightData">
+				<button type="button" id="rightNode" onclick="addRightNode()">Right</button>
+				<br><br>
+				<label>Traverse: </label>
+				<button type="button" id="preorder" onclick="traverse('pre')">Preorder</button>
+				<button type="button" id="inorder" onclick="traverse('in')">Inorder</button>
+				<button type="button" id="postorder" onclick="traverse('post')">Postorder</button>
+				<button type="button" id="reset" onclick="resetOrder()">Reset</button>
+				&emsp;&emsp;&emsp;&emsp;&emsp;
+				<button type="button" id="delete" onclick="deleteNode()">Delete Node</button>
+			</form>
+		</div>
+		<div id="controls">
+			<form>
+				<button type="button" id="back" onclick="moveBack()">Back</button><br><br>
+				<button type="button" id="left" onclick="moveLeft()">Left</button>
+				&nbsp;&nbsp;&nbsp;
+				<button type="button" id="right" onclick="moveRight()">Right</button>
+				
+			</form>
+		</div>
+		<div id="outputs">
+
+		</div>
+		<div id="order">
+			<form>
+				<label id="order-type"></label>
+				<label id="traversal-order"></label>
+			</form>
+		</div>
+	</body>
+</html>
