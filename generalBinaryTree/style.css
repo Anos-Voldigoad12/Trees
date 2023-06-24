@@ -1,0 +1,97 @@
+body
+{
+	background-color:blue;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+#inputs
+{
+	display:flex;
+	float:left;
+	background-color:red;
+	width:90%;
+	height:10vh;
+	justify-content:center;
+  	align-items:center;
+}
+#controls
+{
+	display:flex;
+	float:right;
+	background-color:yellow;
+	width:10%;
+	display: flex;
+  	flex-flow: column;
+  	height: 100vh;
+	text-align:center;
+	justify-content:center;
+  	align-items:center;
+}
+#outputs
+{
+	
+	float:left;
+	background-color:green;
+	width:90%;
+	height:85vh;
+	text-align:center;
+	justify-content:center;
+	/*overflow-y:auto;*/
+	/*overflow-x:auto;*/
+	white-space:nowrap;
+}
+#order
+{
+	float:left;
+	background-color:green;
+	width:90%;
+	height:5vh;
+	text-align:center;
+	justify-content:center;
+	/*overflow-y:auto;*/
+	/*overflow-x:auto;*/
+	white-space:nowrap;
+}
+svg
+{
+	/*background-color:black;*/
+	height:108px;
+	width:296px;
+}
+.root
+{
+	cx:148;
+	cy:54;
+	r:40;
+	fill:orange; 
+}
+.left
+{
+	cx:54;
+	cy:54;
+	r:40;
+	fill:orange;
+}
+.right
+{
+	cx:242;
+	cy:54;
+	r:40;
+	fill:orange;
+}
+.root-text
+{
+	transform:translate(142px,59px);
+}
+.left-text
+{
+	transform:translate(49px,59px);
+}
+.right-text
+{
+	transform:translate(237px,59px);
+}
+.active
+{
+	fill:red;
+}
