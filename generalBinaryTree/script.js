@@ -61,7 +61,6 @@ function search(svgs, x)
 }
 function updatePointerPosition()
 {
-	//console.log(stack);
 	actives = document.getElementsByClassName("active");
 	for(let i=0;i<actives.length;i++)
 	{
